@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Products</title>
+<link rel="icon" type="image/ico" href="logo.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+
+</style>
+
+<div class="header">
+  <h2 style="font-size:60px;font-style: Verdana; color:#800000;">Technomancer</h2>
+
+  <p style="color:#800000; font-size: 20px;">Where your virtual dreams come true...</p>
+
+</div>
+
+<div id="navbar">
+  <a href="index.html">Home</a>
+  <a href class="active"="products.html">Products</a>
+  <a href="contact.html">Contact</a>
+  <a href = "login.html">Login</a>
+  <a href = "checkout.html">Checkout</a>
+
+  <script type="text/javascript">
+  // When the user scrolls the page, execute myFunction
+  window.onscroll = function() {myFunction()};
+
+  // Get the navbar
+  var navbar = document.getElementById("navbar");
+
+  // Get the offset position of the navbar
+  var sticky = navbar.offsetTop;
+
+  // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+</div>
+
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<style>
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+</style>
+<body>
+
+<div class="container">
+  <form action="ryzen.html">
+  <input type="image" src="ryzen.png" alt="Ryzen" width="400" height="300">
+</form>
+</div>
+
+<div class="container">
+  <form action="corsair.html">
+  <input type="image" src="corsair.jpg" alt="Corsair" width="400" height="300" >
+</form>
+</div>
+
+<div class="container">
+  <form action="intel.html">
+  <input type="image" src="Intel.jpg" alt="Intel" width="400" height="300">
+</form>
+</div>
+
+
+</body>
+</html>
+
+<style>
+body {
+  background-color: black;
+}
+
+{
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #800000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color:#800000;
+  color: #;
+}
+
+#navbar a.active {
+  background-color: #800000;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
